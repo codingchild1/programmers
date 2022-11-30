@@ -1,0 +1,8 @@
+ String[] arr = my_string.replaceAll("[a,e,i,o,u]", "").split("");
+        String str = "";
+
+        for (String i : arr) {
+            str += i;
+        }
+        
+        return str;
